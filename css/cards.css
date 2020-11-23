@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    justify-content: center;
+    padding: 10%;
+    width: 100%;
+    margin: auto;
+    font-size: 50px;
+    line-height: 50px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-gap: 20px;
+}
+.card .image img{
+    width: 100%;
+}
+.card .info{
+    
+    width: 100%;
+    color: white;
+}
+h1{
+    color: rgb(0, 0, 0);
+    font-size: small;
+    line-height: normal;
+}
+p{
+    font-size: 40%;
+    color: #ec6c04;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.card .info p, .card .info h1{
+    
+    text-align: center;
+    
+}
+main>.card{
+    display: block;
+    padding: 0px;
+    
+    text-align: left;
+    cursor: pointer;
+    
+}
+main>.card:hover {
+    
+    box-shadow: 4px 4px 15px #ec6c04;
+    color: white;
+}

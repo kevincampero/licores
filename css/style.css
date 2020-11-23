@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(255, 255, 255);
+    font-family: sans-serif;
+    padding-top: 330px;
+    transition: padding-top 0.5s ease;
+}
+header{
+    width: 100%;
+    height: 300px;
+    background: rgb(255, 255, 255);
+    text-align: center;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    transition: all 0.4s ease;
+}
+header h1{
+    font-size: 42px;
+    color: white;
+    line-height: 230px;
+    font-weight: 300;
+    transition: all 0.3s ease;
+}
+header h1 img{
+    margin-top: 5%;
+}
+header nav{
+    position: absolute;
+    bottom: 0;
+    height: 60px;
+    line-height: 60px;
+    width: 100%;
+    background: #ec6c04;
+}
+header nav a{
+    color:white;
+    display: inline-block;
+    padding: 10px 15px;
+    line-height: 1;
+    text-decoration: none;
+    border-radius: 5px;
+}
+header nav a:hover{
+    background:rgb(255, 255, 255);
+    text-decoration: none;
+    color: #ec6c04;
+}
+body.sticky-header{
+    padding-top: 100px;
+}
+body.sticky-header header{
+    height: 60px;
+    background: rgb(255, 255, 255);
+}
+body.sticky-header header h1{
+    transform: scale(0,0);
+}
+
+body.sticky-header header nav{
+    background-color: black;
+}
+body.sticky-header header nav a{
+    color: rgb(255, 255, 255);
+}
+body.sticky-header header nav a:hover{
+    color: #ec6c04;
+}
+
