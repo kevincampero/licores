@@ -52,3 +52,10 @@ main>.card:hover {
     box-shadow: 4px 4px 15px #ec6c04;
     color: white;
 }
+
+@media (max-width: 600px){
+    main{
+        grid-template-columns: 40% 40%;;
+
+    }
+}
