@@ -73,6 +73,17 @@ body.sticky-header header nav a{
 body.sticky-header header nav a:hover{
     color: #ec6c04;
 }
+
 @media(max-width: 600px)
 {
+
+    header h1 img{
+        width: 80%;
+    }
+    
+    #nav{
+        height: max-content;
+    }
+
+  
 }

@@ -4,10 +4,11 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(../img/img3.jpg);
+    background-image: url(../img/img1.jpg);
+    background-size: cover;
     width: 100%;
     height: 100vh;
-    color: #de2119;
+    color: #bd7622;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -21,7 +22,7 @@ body{
 }
 .form-header{
     text-align: center;
-    background: rgba(46, 48, 47, 0.877);
+    background: #561e0b;
     padding: 30px 0 40px ;
 }
 .form-header img{
@@ -29,7 +30,7 @@ body{
     width: 40px;
 }
 .form-header span{
-    color: #de2119;
+    color: #bd7622;
 }
 .form-header h1{
     color: white;
@@ -51,12 +52,12 @@ body{
     overflow: hidden;
     font-family: AbeeZee;
     font-size: 120%;
-    color: #de2119;
+    color: #bd7622;
 }
 h3{
     position: relative;
     display: inline-block;
-    color: #de2119;
+    color: #bd7622;
     padding: 0 10px;
 }
 h3::after, h3::before{
@@ -64,7 +65,7 @@ h3::after, h3::before{
     content: '';
     width: 100%;
     height: 3px;
-    background: rgba(46, 48, 47, 0.877);
+    background: #561e0b;
     top: 0.5em;
 
 }
@@ -87,7 +88,7 @@ input[type="email"],
 input[type="password"],
 input[type="text"]{
     border: none;
-    border-bottom: 1.7px solid #de2019d0;
+    border-bottom: 1.7px solid #bd7622;
     width: 100%;
     outline: none;
     font-size: 14px;
@@ -100,7 +101,7 @@ input[type="text"]{
     top: 0;
     left: 0;
     font-size: 14px;
-    color: #de2019d0;
+    color: #bd7622;
     padding-left: 18px;
     cursor: text;
     transition: all 1s ease;
@@ -123,7 +124,7 @@ input[type="text"]{
 input[type="submit"]{
     background: none;
     border: none;
-    background: #b91a14;
+    background: #bd7622;
     color: white;
     width: 80%;
     font-size: 14px;
@@ -134,12 +135,12 @@ input[type="submit"]{
 }
 input[type="submit"]:hover{
     background: rgb(255, 255, 255);
-    color: #de2119;
-    border: solid 1px #de2119;
+    color: #bd7622;
+    border: solid 1px #bd7622;
     cursor: pointer;
 }
 .input-group>p{
-    color: #de2119;
+    color: #bd7622;
     text-align: center;
     font-size: 14px;
     font-family: AbeeZee;

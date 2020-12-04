@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(255, 255, 255);
+    overflow: hidden;
+}
+.container{
+    position: relative;
+    width: 80%;
+    display: flex;
+    cursor: pointer;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    transform: skewY(-7deg) ;
+
+}
+.container .card{
+    position: relative;
+    transition: 0.5s;
+    width: 300px;
+    height: 400px;
+    background: white;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.692);
+    transition: 0.5s;
+    border-left: 20px solid black;
+    
+}
+.container .card:before{
+    content: '';
+    position: absolute;
+    top: -15px;
+    left: 0;
+    width: 100%;
+    height: 15px;
+    transform-origin: bottom ;
+    transform: skewX(45deg);
+    transition: 0.5s;
+}
+#uno::before{
+    background: #6b1b7a;
+}
+#dos::before{
+    background: #370c0b;
+}
+#tres::before{
+    background: #ea6c17;
+}
+.container .card:hover{
+    transform: translateY(-40px);
+}
+.container .card .imgBx{
+    position: relative;
+    width: 100%;
+    background: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container .card .imgBx img{
+    width: 100%;
+}
+.container .card .imgBx h3{
+    position: relative;
+    color: white;
+    margin-top: 10px;
+    
+}
+a{
+    text-decoration: none;
+}
+#uno p{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+    color: #6b1b7a;
+    text-align: center;
+}
+#dos p{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+    color: #370c0b;
+    text-align: center;
+}
+#tres p{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+    color: #ea6c17;
+    text-align: center;
+}
+@media (max-width:600px){
+    .container{
+        height: 100vh;
+    }
+    .container .card{
+        height: 10vh;
+    }
+    .container .card p{
+        display: none;
+    }
+}
+
+
+
+
+
+

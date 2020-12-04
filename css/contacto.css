@@ -1,0 +1,67 @@
+#foto{
+    margin-top: 100px;
+    width: 30%;
+    
+}
+.tarjetas{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    margin-left: 0;
+}
+.tarjeta{
+    width: 150px;
+    background-size: 160px;
+    cursor: pointer;
+    
+}
+.tarjeta img{
+    width: 150px;
+}
+.tarjeta:hover{
+    height: 180px;
+    transition: all 200ms ease;
+}
+#whatsapp{
+    background-color: #34b424;
+}
+#pinterest{
+    background-color: #e41414;
+}
+#facebook{
+    background-color: #4c6cb4;
+}
+#twitter{
+    background-color: #4ca4e4;
+}
+#youtube{
+    background-color: #cc2424;
+}
+#gmail{
+    background-color: #ecebeb;
+}
+
+
+@media screen and (max-width: 800px)
+{
+    #foto{
+        margin-top: 0px;
+        height: 100vh;
+        width: 100%;
+    }
+    .tarjeta{
+        width: 50px;
+        background-size: 160px;
+        cursor: pointer;
+        
+    }
+    .tarjeta img{
+        width: 50px;
+    }
+    .tarjeta:hover{
+        height: 80px;
+        transition: all 200ms ease;
+    }
+}
